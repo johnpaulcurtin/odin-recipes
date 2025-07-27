@@ -1,27 +1,63 @@
 *{
-    font-family: "copperplate", sans-serif;
+    font-family: "Tahoma", sans-serif;
+    box-sizing: border-box;
 }
-h1 {background-color:rgb(227, 74, 99); color:rgb(162, 225, 225);
-    font-size: 75px;
-    border: 12px dotted salmon;
-    text-align: center;
+h1 {background-color:hsl(350, 73%, 59%, 35%); color:hsla(207, 95%, 50%, 0.75);
+    margin: 125px; 
     padding: 20px;
+    font-family: "brush script MT", sans-serif;
+    font-size: 125px;
+    font-weight: bolder;
+    border: 24px groove salmon;
+    text-align: center;
+    ;
     
 }
+h1:hover {border: 25px groove yellow;
+font-family:Verdana, Geneva, Tahoma, sans-serif}
+
 h2 {font-family: "papyrus", sans-serif;
+    font-weight: bolder;
     background-color: darkseagreen;
-border: 12px dotted yellow;
-padding: 20px;}
+border: 12px outset yellow;
+padding: 20px;
+text-align: center;}
 
-
-ul { background-color: rgb(11, 195, 88) ;
-    color:blueviolet;
+ul {
+margin: 20px;
 padding: 20 px;
+display:block;
 }
+li {margin:40px}
 
-img {border: 12px dotted salmon;
+img {border: 12px inset rgb(101, 236, 200);
     padding: inherit;
     margin:auto;
     width: 200px;
     display: block;
-    ;}
+    }
+img:hover {border: 12px outset salmon}
+
+    .button { position:absolute;
+        background-color: pink;
+        color: pink; 
+        width: auto;
+        margin: 10px;
+        border: 30px;
+        border-radius: 20px;
+       box-shadow: 0px 0px 6px 6px pink;
+       display: block;
+    
+
+    }
+    .button:hover {background-color: pink;
+    transition: 0.7s;
+    color: black;
+    border: 12px dotted black;
+}
+p {background-color: hsl(146, 50%, 36%, 35%);
+}
+body {
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
