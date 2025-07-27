@@ -1,0 +1,27 @@
+*{
+    font-family: "copperplate", sans-serif;
+}
+h1 {background-color:rgb(227, 74, 99); color:rgb(162, 225, 225);
+    font-size: 75px;
+    border: 12px dotted salmon;
+    text-align: center;
+    padding: 20px;
+    
+}
+h2 {font-family: "papyrus", sans-serif;
+    background-color: darkseagreen;
+border: 12px dotted yellow;
+padding: 20px;}
+
+
+ul { background-color: rgb(11, 195, 88) ;
+    color:blueviolet;
+padding: 20 px;
+}
+
+img {border: 12px dotted salmon;
+    padding: inherit;
+    margin:auto;
+    width: 200px;
+    display: block;
+    ;}
